@@ -1,0 +1,87 @@
+
+/* cross   #FEC000
+circle  #00B1F1
+text    #FFFFFF */
+
+
+body {
+    background-color: #323232;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+
+        /* Grundlegendes Styling für die Tabelle */
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    border: none; /* Keine äußeren Ränder */
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2em;
+    border: 5px solid white; /* Dicke der Trennlinien innerhalb der Tabelle */
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+table td {
+  border: 5px solid #fff; 
+}
+table tr:first-child td {
+  border-top: 0;
+}
+table tr td:first-child {
+  border-left: 0;
+}
+table tr:last-child td {
+  border-bottom: 0;
+}
+table tr td:last-child {
+  border-right: 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button {
+    background-color: #00B0EF;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 32px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover-Effekt für den Button */
+button:hover {
+    background-color: #016083;
+}
